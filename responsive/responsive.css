@@ -1,0 +1,13 @@
+@media (min-width: 375px) {
+    .col-20,
+    .col-16,
+    .col-25,
+    .col-33,
+    .col-50,
+    .col-60 {
+        width: 100%;
+    }
+    img {
+        width: 100%;
+    }
+}
