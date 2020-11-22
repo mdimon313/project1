@@ -87,7 +87,7 @@ section {
 /* logo style */
 .logo {
     width: 200px;
-    float: left;
+    /* float: left; */
 }
 .logo img {
     width: 100%;
@@ -98,6 +98,7 @@ section {
 }
 .navList {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     list-style-type: none;
@@ -107,20 +108,23 @@ section {
 }
 .navList li a {
     display: block;
-    margin-left: 20px;
+    margin-left: 15px;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 600;
     font-family: 'Open sans';
+    font-size: 14px;
     color: #333;
+    line-height: 25px;
 }
 .navList li a.active {
-    margin: 0 15px;
+    margin-left: 15px;
     text-transform: uppercase;
     color: #72A8F9;
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
+    font-weight: 600;
+    line-height: 25px;
 }
 .navList li a:hover {
     color: #72A8F9;
@@ -398,7 +402,7 @@ section {
 }
 .secMenu .secListItem li a {
     display: block;
-    margin: 0 20px;
+    margin-left: 20px;
     color: #15273E;
     text-transform: uppercase;
     font-size: 14px;
@@ -406,6 +410,7 @@ section {
     position: relative;
     padding-bottom: 6px;
     transition: all .3s ease-in-out;
+    line-height: 27px;
 }
 .secMenu .secListItem li a.active{
     color: #72A8F9;
@@ -811,7 +816,7 @@ section {
     align-items: center;
 }
 .iconLeft {
-    width: 35px;
+    width: 30px;
 }
 .iconLeft i {
     font-size: 18px;
@@ -904,6 +909,7 @@ section {
     font-family: 'Open sans';
     font-size: 14px;
     border: 1px solid #ddd;
+    outline: none;
     border-radius: 3px;
     background: #f6f6f6;
     color: #333;
