@@ -141,9 +141,24 @@
         margin-bottom: 30px;
     }
     .inputs > input {
-        width: 100%;
+        width: 100% !important;
+        margin: 10px 0;
     }
-    .inputs input[type="text"] {
+    
+    /* .inputs input[type="text"] {
         margin-bottom: 20px;
+    } */
+
+    /* foot style */
+    .footWrap {
+        margin-bottom: 30px;
+    }
+}
+@media (min-width: 1024px) and (max-width: 768px) {
+    .inputs input[type="text"] {
+        margin-right: 10px;
+    }
+    .inputs > input {
+        width: 50%;
     }
 }
